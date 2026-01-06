@@ -3,6 +3,7 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Features } from './components/Features';
 import { ProductDetails } from './components/ProductDetails';
+// import { AiAssistant } from './components/AiAssistant';
 import { Footer } from './components/Footer';
 
 const App: React.FC = () => {
@@ -34,6 +35,9 @@ const App: React.FC = () => {
       <Features />
       
       <ProductDetails />
+
+      {/* AI Assistant Removed */}
+      {/* <AiAssistant /> */}
       
       {/* About Section */}
       <section id="about" className="py-16 bg-indigo-900 text-white relative overflow-hidden">
