@@ -1,7 +1,7 @@
 {
   "name": "menger-sponge-keychain",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "Eco-friendly 3D printed PLA Menger Sponge keychains showcase.",
   "scripts": {

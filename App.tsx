@@ -3,7 +3,6 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Features } from './components/Features';
 import { ProductDetails } from './components/ProductDetails';
-// import { AiAssistant } from './components/AiAssistant';
 import { Footer } from './components/Footer';
 
 const App: React.FC = () => {
@@ -18,7 +17,6 @@ const App: React.FC = () => {
           <div className="flex flex-wrap justify-center gap-4 opacity-80">
              {/* Using standard placeholder images styled to look like product shots */}
              <div className="w-32 h-32 md:w-48 md:h-48 rounded-2xl overflow-hidden shadow-lg transform rotate-3 hover:rotate-0 transition-all duration-300">
-               {/* Google DriveのプレビューURLから画像表示用URL形式(thumbnail API)に変換して使用 */}
                <img src="https://drive.google.com/thumbnail?id=1ZXtePgoC_36-nDxs0cyqkXll8CPAsqq2&sz=w1000" alt="Menger Sponge Blue" className="w-full h-full object-cover" />
              </div>
              <div className="w-32 h-32 md:w-48 md:h-48 rounded-2xl overflow-hidden shadow-lg transform -rotate-3 hover:rotate-0 transition-all duration-300 mt-8">
@@ -35,9 +33,6 @@ const App: React.FC = () => {
       <Features />
       
       <ProductDetails />
-
-      {/* AI Assistant Removed */}
-      {/* <AiAssistant /> */}
       
       {/* About Section */}
       <section id="about" className="py-16 bg-indigo-900 text-white relative overflow-hidden">
